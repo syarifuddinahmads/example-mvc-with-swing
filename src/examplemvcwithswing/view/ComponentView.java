@@ -5,6 +5,7 @@
  */
 package examplemvcwithswing.view;
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
 
 /**
@@ -14,5 +15,7 @@ import javax.swing.JFrame;
 public class ComponentView extends JFrame{
     
     // attach your frame component
+    
+    JButton btnUser = new JButton("Go to User View");
     
 }

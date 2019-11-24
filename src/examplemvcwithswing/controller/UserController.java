@@ -7,6 +7,7 @@ package examplemvcwithswing.controller;
 
 import examplemvcwithswing.abstracts.AbstractProses;
 import examplemvcwithswing.view.LoginView;
+import examplemvcwithswing.view.UserView;
 
 /**
  *
@@ -16,6 +17,10 @@ public class UserController extends AbstractProses {
 
     public static void loginView() {
         LoginView loginView = new LoginView();
+    }
+    
+    public static void userView() {
+        UserView userView =  new UserView();
     }
 
     @Override
