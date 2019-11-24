@@ -12,34 +12,34 @@ import examplemvcwithswing.view.LoginView;
  *
  * @author udin
  */
-public class UserController extends AbstractProses{
-    
-    public static void  loginView(){
-          LoginView loginView = new  LoginView();
+public class UserController extends AbstractProses {
+
+    public static void loginView() {
+        LoginView loginView = new LoginView();
     }
-    
+
     @Override
-    public void insert(){
+    public void insert() {
         // write control proses view
     }
-    
+
     @Override
-    public void view(){
+    public void view() {
         // write control proses view
     }
-    
+
     @Override
-    public void edit(){
+    public void edit() {
         // write control proses view
     }
-    
+
     @Override
-    public void delete(){
+    public void delete() {
         // write control proses view
     }
-    
+
     @Override
-    public void search(){
+    public void search() {
         // write control proses view
     }
 }
